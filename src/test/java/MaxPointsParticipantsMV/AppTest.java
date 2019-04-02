@@ -25,11 +25,16 @@ public class AppTest
     @Test
     public void addStudentSuccessfully()
     {
-        StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
-        Student paul = new Student("10", "Paul", 936, "paul.pop@yahoo.com", "Profesor X");
-        float size = rep.size();
-        rep.save(paul);
-        assertTrue(rep.size() == size+ 1);
+        try {
+            StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
+            ServiceStudent srv = new ServiceStudent(rep);
+            Student paul = new Student("10", "Paul", 936, "paul.pop@yahoo.com", "Profesor X");
+            float size = rep.size();
+            srv.add(paul);
+            assertTrue(true);
+        }catch (Exception e) {
+            assertTrue(false);
+        }
     }
 
     @Test
