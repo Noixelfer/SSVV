@@ -1,13 +1,14 @@
-package test.java.MaxPointsParticipantsMV;
-
-import static org.junit.Assert.assertTrue;
+package MaxPointsParticipantsMV;
 
 import Domain.Student;
 import Repository.StudentRepo;
-import Repository.TemeRepo;
 import Validator.StudentValidator;
-import Validator.TemeValidator;
-import org.junit.Test;
+import org.testng.annotations.Test;
+
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Unit test for simple App.
@@ -17,11 +18,6 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
 
     @Test
     public void addStudentSuccessfully()
