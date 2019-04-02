@@ -23,6 +23,7 @@ public class AppTest
         assertTrue( true );
     }
 
+    @Test
     public void addStudentSuccessfully()
     {
         StudentRepo rep = new StudentRepo(new StudentValidator(), "E:\\AndroidProjects\\SSVV\\LabAssiAsseProjectV04\\src\\studenti.xml");
