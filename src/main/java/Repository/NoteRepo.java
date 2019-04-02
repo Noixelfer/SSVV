@@ -19,7 +19,7 @@ import java.io.*;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-//import static java.io.InputStream.nullInputStream;
+import static java.io.InputStream.nullInputStream;
 
 public class NoteRepo extends AbstractRepo<Nota,Map.Entry<String,Integer>> {
     private DocumentBuilderFactory builderFactory;
