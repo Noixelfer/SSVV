@@ -29,7 +29,7 @@ public class AppTest
         Student paul = new Student("10", "Paul", 936, "paul.pop@yahoo.com", "Profesor X");
         float size = rep.size();
         rep.save(paul);
-        assert(rep.size() == size+ 1);
+        assertTrue(rep.size() == size+ 1);
     }
 
     @Test
