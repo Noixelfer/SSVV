@@ -22,7 +22,7 @@ public class AppTest
     @Test
     public void addStudentSuccessfully()
     {
-        StudentRepo rep = new StudentRepo(new StudentValidator(), "E:\\AndroidProjects\\SSVV\\LabAssiAsseProjectV04\\src\\studenti.xml");
+        StudentRepo rep = new StudentRepo(new StudentValidator(), "src\\\\studenti.xml");
         Student paul = new Student("10", "Paul", 936, "paul.pop@yahoo.com", "Profesor X");
         float size = rep.size();
         rep.save(paul);
