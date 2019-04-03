@@ -27,6 +27,16 @@ public class UI {
         this.serv=serv;
         this.sv=sv;
     }
+
+    public void addAssignment(int nr, String desc, int sapt, int d){
+        try {
+            Teme tema = new Teme(nr, desc, sapt, d);
+            serv.add(tema);
+        }catch(ValidationException ex){
+            System.out.println(ex);
+        }
+    }
+
     public void show() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while(true) {

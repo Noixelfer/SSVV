@@ -1,9 +1,15 @@
 package MaxPointsParticipantsMV;
 
 import Domain.Student;
+import Repository.NoteRepo;
 import Repository.StudentRepo;
+import Repository.TemeRepo;
+import Service.ServiceNote;
 import Service.ServiceStudent;
+import Service.ServiceTeme;
+import Validator.NotaValidator;
 import Validator.StudentValidator;
+import Validator.TemeValidator;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 
@@ -22,21 +28,7 @@ public class AppTest
      * Rigorous Test :-)
      */
 
-    @Test
-    public void addStudentSuccessfully()
-    {
-//        try {
-//            StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
-//            ServiceStudent srv = new ServiceStudent(rep);
-//            Student paul = new Student("10", "Paul", 936, "paul.pop@yahoo.com", "Profesor X");
-//            srv.add(paul);
-//            assertTrue(true);
-//        }catch (Exception e) {
-//            assertTrue(false);
-//        }
-        assertTrue(true);
-    }
-
+ 
     @Test
     public void addStudentWithInvalidEmail() {
         try {
@@ -120,6 +112,39 @@ public class AppTest
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
+            assertTrue(true);
+        }
+    }
+    @Test
+    public void addValidAssignment() {
+        try {
+            StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
+            TemeRepo repo = new TemeRepo(new TemeValidator(), temePath);
+            NoteRepo r = new NoteRepo(new NotaValidator());
+            ServiceStudent srv = new ServiceStudent(rep);
+            ServiceTeme serv = new ServiceTeme(repo);
+            ServiceNote sv = new ServiceNote(r);
+            UI.UI ui = new UI.UI(srv, serv, sv);
+            ui.addAssignment(1, "Do black box testing", 2, 3);
+            assertTrue(true);
+        } catch (Exception e) {
+            assertTrue(false);
+        }
+    }
+
+    @Test
+    public void addInvalidAssignment() {
+        try {
+            StudentRepo rep=new StudentRepo(new StudentValidator(), studentsPath);
+            TemeRepo repo=new TemeRepo(new TemeValidator(),temePath);
+            NoteRepo r=new NoteRepo(new NotaValidator());
+            ServiceStudent srv=new ServiceStudent(rep);
+            ServiceTeme serv=new ServiceTeme(repo);
+            ServiceNote sv=new ServiceNote(r);
+            UI.UI ui=new UI.UI(srv,serv,sv);
+            ui.addAssignment(1, "dO wHiTeBoX tEsTiNg", 3, 1);
+            assertTrue(false);
+        } catch (Error e) {
             assertTrue(true);
         }
     }
