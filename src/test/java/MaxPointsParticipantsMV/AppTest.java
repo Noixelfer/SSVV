@@ -21,7 +21,7 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-/*
+
     @Test
     public void addStudentSuccessfully()
     {
@@ -36,7 +36,7 @@ public class AppTest
 //        }
         assertTrue(true);
     }
-*/
+
     @Test
     public void addStudentWithInvalidEmail() {
         try {
