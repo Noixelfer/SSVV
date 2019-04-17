@@ -11,7 +11,7 @@ import Validator.NotaValidator;
 import Validator.StudentValidator;
 import Validator.TemeValidator;
 import org.junit.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
