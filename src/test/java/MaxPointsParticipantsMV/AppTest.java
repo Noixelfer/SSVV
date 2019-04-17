@@ -28,13 +28,13 @@ public class AppTest
      * Rigorous Test :-)
      */
 
- 
+
     @Test
     public void addStudentWithInvalidEmail() {
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", "Sergiu", 936, "e-mail", "Prof X");
+            Student std = new Student("78", "paul", 936, "e-mail", "Gabi Mircea");
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
@@ -46,7 +46,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", "Sergiu", 936, null, "Prof X");
+            Student std = new Student("78", "paul", 936, null, "Gabi Mircea");
             srv.add(std);
             Assert.assertTrue(false);
         } catch (Exception e) {
@@ -58,7 +58,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", "Sergiu", 189, "jojo@ghdd.com", "Prof X");
+            Student std = new Student("78", "paul", 189, "paul@yahoo.com", "Gabi Mircea");
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
@@ -70,7 +70,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", null, 933, "jojo@ghdd.com", "Prof X");
+            Student std = new Student("78", null, 933, "paul@yahoo.com", "Gabi Mircea");
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
@@ -82,7 +82,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", "Sergiu", 933, "jojo@ghdd.com", null);
+            Student std = new Student("78", "Paul", 933, "paul@yahoo.com", null);
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
@@ -95,7 +95,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", "Sergiu", 935, "jojo@ghdd.com", "Prof 66X");
+            Student std = new Student("78", "Paul", 935, "paul@yahoo.com", "Gabi Mircea");
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
@@ -108,7 +108,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("7j8", "Sergiu", 934, "jojo@ghdd.com", "Prof X");
+            Student std = new Student("7j8", "Paul", 936, "paul@yahoo.com", "Gabi Mircea");
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
@@ -125,7 +125,7 @@ public class AppTest
             ServiceTeme serv = new ServiceTeme(repo);
             ServiceNote sv = new ServiceNote(r);
             UI.UI ui = new UI.UI(srv, serv, sv);
-            ui.addAssignment(1, "Do black box testing", 2, 3);
+            ui.addAssignment(1, "valid test", 2, 5);
             assertTrue(true);
         } catch (Exception e) {
             assertTrue(false);
@@ -142,7 +142,7 @@ public class AppTest
             ServiceTeme serv=new ServiceTeme(repo);
             ServiceNote sv=new ServiceNote(r);
             UI.UI ui=new UI.UI(srv,serv,sv);
-            ui.addAssignment(1, "dO wHiTeBoX tEsTiNg", 3, 1);
+            ui.addAssignment(1, "invalid test", 12,4 );
             assertTrue(false);
         } catch (Error e) {
             assertTrue(true);
