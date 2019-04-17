@@ -3,8 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="5486dac1-dd54-4607-beca-99b56d08a9f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/studenti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roman Ionut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Roman Ionut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Teme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/hasID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MaxPointsParticipantsMV/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AbstractRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/CrudRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/NoteRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/StudentRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TemeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceTeme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemeValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Validator/Validator.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+            <state relative-caret-position="1717">
+              <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +52,20 @@
       <file leaf-file-name="BigBang.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-17">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -80,20 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MaxPointsParticipantsMV/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="20" column="72" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteRepo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NoteRepo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+            <state relative-caret-position="122">
+              <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -137,7 +157,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/MaxPointsParticipantsMV/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/java/MaxPointsParticipantsMV/AppTest.java" />
@@ -146,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/UI/UI.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -195,53 +215,6 @@
               <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSVV" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxPointsParticipantsMV" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +230,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
@@ -469,29 +442,11 @@
       <workItem from="1554236925725" duration="1915000" />
       <workItem from="1554284593273" duration="2625000" />
       <workItem from="1555493170583" duration="2886000" />
-      <workItem from="1555496569357" duration="199000" />
+      <workItem from="1555496569357" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_addStudentWithNullProfessor - 2019.04.17 at 13h 23m 53s.xml">
-      <configuration name="AppTest.addStudentWithNullProfessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addStudentWithInvalidProfessor - 2019.04.17 at 13h 23m 57s.xml">
-      <configuration name="AppTest.addStudentWithInvalidProfessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addStudentWithInvalidID - 2019.04.17 at 13h 24m 12s.xml">
-      <configuration name="AppTest.addStudentWithInvalidID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addValidAssignment - 2019.04.17 at 13h 24m 16s.xml">
-      <configuration name="AppTest.addValidAssignment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addInvalidAssignment - 2019.04.17 at 13h 24m 19s.xml">
-      <configuration name="AppTest.addInvalidAssignment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addInvalidAssignmentNoDesc - 2019.04.17 at 13h 24m 22s.xml">
-      <configuration name="AppTest.addInvalidAssignmentNoDesc" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_addInvalidAssignmentWrongNr - 2019.04.17 at 13h 24m 25s.xml">
       <configuration name="AppTest.addInvalidAssignmentWrongNr" configurationId="JUnit" />
     </history-entry>
@@ -504,9 +459,27 @@
     <history-entry file="AppTest_addStudentWithInvalidProfessor - 2019.04.17 at 13h 26m 08s.xml">
       <configuration name="AppTest.addStudentWithInvalidProfessor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BigBang_test_addValidGrade - 2019.04.17 at 13h 26m 18s.xml">
+      <configuration name="BigBang.test_addValidGrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang_test_addValidAssignment - 2019.04.17 at 13h 26m 22s.xml">
+      <configuration name="BigBang.test_addValidAssignment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang_test_addStudent - 2019.04.17 at 13h 26m 25s.xml">
+      <configuration name="BigBang.test_addStudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang - 2019.04.17 at 13h 26m 30s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang - 2019.04.17 at 13h 26m 32s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang - 2019.04.17 at 13h 39m 24s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13089000" />
+    <option name="totallyTimeSpent" value="13884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -523,7 +496,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
@@ -534,7 +507,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -824,21 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/dsa.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MaxPointsParticipantsMV/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -901,9 +860,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-17">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -911,13 +880,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
         </state>
       </provider>
     </entry>
