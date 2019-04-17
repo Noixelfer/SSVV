@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5486dac1-dd54-4607-beca-99b56d08a9f3" name="Default" comment="" />
+    <list default="true" id="5486dac1-dd54-4607-beca-99b56d08a9f3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +20,8 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-707">
-              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            <state relative-caret-position="296">
+              <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,7 +32,7 @@
       <file leaf-file-name="BigBang.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="68">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,11 +53,10 @@
       <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UI/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="238">
               <caret line="30" column="29" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1275#1292#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/studenti.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -184,9 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +246,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,22 +281,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest.addInvalidAssignmentWrongSapt">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.App" />
-      <module name="MaxPointsParticipants" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BigBang">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AppTest.addInvalidAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.addStudentWithInvalidProfessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MaxPointsParticipants" />
       <extension name="coverage">
         <pattern>
@@ -305,7 +297,99 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
       <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.AppTest" />
-      <option name="METHOD_NAME" value="addInvalidAssignment" />
+      <option name="METHOD_NAME" value="addStudentWithInvalidProfessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BigBang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
+      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.BigBang" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BigBang.test_addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
+      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.BigBang" />
+      <option name="METHOD_NAME" value="test_addStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BigBang.test_addValidAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
+      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.BigBang" />
+      <option name="METHOD_NAME" value="test_addValidAssignment" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BigBang.test_addValidGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
+      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.BigBang" />
+      <option name="METHOD_NAME" value="test_addValidGrade" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -332,93 +416,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AppTest.addInvalidAssignmentWrongDue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MaxPointsParticipants" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
-      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.AppTest" />
-      <option name="METHOD_NAME" value="addInvalidAssignmentWrongDue" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="AppTest.addInvalidAssignmentWrongSapt" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MaxPointsParticipants" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
-      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.AppTest" />
-      <option name="METHOD_NAME" value="addInvalidAssignmentWrongSapt" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="AppTest.addStudentWithInvalidGroup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MaxPointsParticipants" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
-      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.AppTest" />
-      <option name="METHOD_NAME" value="addStudentWithInvalidGroup" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -442,19 +439,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="TestNG.AppTest.addStudentWithInvalidGroup" />
-      <item itemvalue="TestNG.AppTest.addInvalidAssignmentWrongSapt" />
-      <item itemvalue="TestNG.AppTest.addInvalidAssignmentWrongDue" />
-      <item itemvalue="JUnit.AppTest.addInvalidAssignment" />
+      <item itemvalue="JUnit.AppTest.addStudentWithInvalidProfessor" />
+      <item itemvalue="JUnit.BigBang.test_addValidGrade" />
+      <item itemvalue="JUnit.BigBang.test_addValidAssignment" />
+      <item itemvalue="JUnit.BigBang.test_addStudent" />
+      <item itemvalue="JUnit.BigBang" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppTest.addInvalidAssignmentWrongSapt" />
-        <item itemvalue="TestNG.AppTest.addInvalidAssignmentWrongDue" />
-        <item itemvalue="JUnit.AppTest.addInvalidAssignment" />
-        <item itemvalue="TestNG.AppTest.addStudentWithInvalidGroup" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.BigBang" />
+        <item itemvalue="JUnit.BigBang.test_addStudent" />
+        <item itemvalue="JUnit.BigBang.test_addValidAssignment" />
+        <item itemvalue="JUnit.BigBang.test_addValidGrade" />
+        <item itemvalue="JUnit.AppTest.addStudentWithInvalidProfessor" />
       </list>
     </recent_temporary>
   </component>
@@ -472,31 +469,44 @@
       <workItem from="1554236925725" duration="1915000" />
       <workItem from="1554284593273" duration="2625000" />
       <workItem from="1555493170583" duration="2886000" />
+      <workItem from="1555496569357" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_addStudentWithInvalidGroup - 2019.04.17 at 12h 54m 56s.xml">
-      <configuration name="AppTest.addStudentWithInvalidGroup" configurationId="TestNG" />
+    <history-entry file="AppTest_addStudentWithNullProfessor - 2019.04.17 at 13h 23m 53s.xml">
+      <configuration name="AppTest.addStudentWithNullProfessor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addInvalidAssignmentWrongSapt - 2019.04.17 at 12h 55m 10s.xml">
-      <configuration name="AppTest.addInvalidAssignmentWrongSapt" configurationId="TestNG" />
+    <history-entry file="AppTest_addStudentWithInvalidProfessor - 2019.04.17 at 13h 23m 57s.xml">
+      <configuration name="AppTest.addStudentWithInvalidProfessor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addInvalidAssignmentWrongDue - 2019.04.17 at 12h 55m 14s.xml">
-      <configuration name="AppTest.addInvalidAssignmentWrongDue" configurationId="TestNG" />
+    <history-entry file="AppTest_addStudentWithInvalidID - 2019.04.17 at 13h 24m 12s.xml">
+      <configuration name="AppTest.addStudentWithInvalidID" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addInvalidAssignmentWrongDue - 2019.04.17 at 13h 13m 08s.xml">
-      <configuration name="AppTest.addInvalidAssignmentWrongDue" configurationId="TestNG" />
+    <history-entry file="AppTest_addValidAssignment - 2019.04.17 at 13h 24m 16s.xml">
+      <configuration name="AppTest.addValidAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addInvalidAssignmentWrongDue - 2019.04.17 at 13h 13m 18s.xml">
-      <configuration name="AppTest.addInvalidAssignmentWrongDue" configurationId="TestNG" />
+    <history-entry file="AppTest_addInvalidAssignment - 2019.04.17 at 13h 24m 19s.xml">
+      <configuration name="AppTest.addInvalidAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addInvalidAssignmentWrongSapt - 2019.04.17 at 13h 13m 27s.xml">
-      <configuration name="AppTest.addInvalidAssignmentWrongSapt" configurationId="TestNG" />
+    <history-entry file="AppTest_addInvalidAssignmentNoDesc - 2019.04.17 at 13h 24m 22s.xml">
+      <configuration name="AppTest.addInvalidAssignmentNoDesc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_addInvalidAssignmentWrongNr - 2019.04.17 at 13h 24m 25s.xml">
+      <configuration name="AppTest.addInvalidAssignmentWrongNr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_addInvalidAssignmentWrongSapt - 2019.04.17 at 13h 24m 27s.xml">
+      <configuration name="AppTest.addInvalidAssignmentWrongSapt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_addInvalidAssignmentWrongDue - 2019.04.17 at 13h 24m 29s.xml">
+      <configuration name="AppTest.addInvalidAssignmentWrongDue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_addStudentWithInvalidProfessor - 2019.04.17 at 13h 26m 08s.xml">
+      <configuration name="AppTest.addStudentWithInvalidProfessor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12890000" />
+    <option name="totallyTimeSpent" value="13089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -516,8 +526,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24786781" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven-2 Build" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,6 +535,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -534,34 +544,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven-2 Build" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24853334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven-2 Build" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,6 +579,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Student.java">
@@ -872,24 +887,23 @@
     <entry file="file://$PROJECT_DIR$/src/studenti.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="238">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="68">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -899,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-707">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        <state relative-caret-position="296">
+          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -6,6 +6,12 @@
         <mail>riir3478@scs.ubbcluj.ro</mail>
         <profesor>Plesu Andrei</profesor>
     </Student>
+    <Student idStudent="78">
+        <nume>Paul</nume>
+        <grupa>935</grupa>
+        <mail>paul@yahoo.com</mail>
+        <profesor>Gabi Mircea</profesor>
+    </Student>
     <Student idStudent="2">
         <nume>Gorea Andra</nume>
         <grupa>921</grupa>

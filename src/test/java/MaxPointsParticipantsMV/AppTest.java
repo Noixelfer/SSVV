@@ -95,7 +95,7 @@ public class AppTest
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
-            Student std = new Student("78", "Paul", 935, "paul@yahoo.com", "Gabi Mircea");
+            Student std = new Student("78", "Paul", 935, "paul@yahoo.com", "");
             srv.add(std);
             assertTrue(false);
         } catch (Exception e) {
