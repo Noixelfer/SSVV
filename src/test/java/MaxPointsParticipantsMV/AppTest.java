@@ -142,7 +142,74 @@ public class AppTest
             ServiceTeme serv=new ServiceTeme(repo);
             ServiceNote sv=new ServiceNote(r);
             UI.UI ui=new UI.UI(srv,serv,sv);
-            ui.addAssignment(1, "dO wHiTeBoX tEsTiNg", 3, 1);
+            ui.addAssignment(1, "WhiteBox", 3, 1);
+            assertTrue(false);
+        } catch (Error e) {
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void addInvalidAssignmentNoDesc() {
+        try {
+            StudentRepo rep=new StudentRepo(new StudentValidator(), studentsPath);
+            TemeRepo repo=new TemeRepo(new TemeValidator(),temePath);
+            NoteRepo r=new NoteRepo(new NotaValidator());
+            ServiceStudent srv=new ServiceStudent(rep);
+            ServiceTeme serv=new ServiceTeme(repo);
+            ServiceNote sv=new ServiceNote(r);
+            UI.UI ui=new UI.UI(srv,serv,sv);
+            ui.addAssignment(1, "", 3, 4);
+            assertTrue(false);
+        } catch (Error e) {
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void addInvalidAssignmentWrongNr() {
+        try {
+            StudentRepo rep=new StudentRepo(new StudentValidator(), studentsPath);
+            TemeRepo repo=new TemeRepo(new TemeValidator(),temePath);
+            NoteRepo r=new NoteRepo(new NotaValidator());
+            ServiceStudent srv=new ServiceStudent(rep);
+            ServiceTeme serv=new ServiceTeme(repo);
+            ServiceNote sv=new ServiceNote(r);
+            UI.UI ui=new UI.UI(srv,serv,sv);
+            ui.addAssignment(-1, "WhiteBox", 3, 1);
+            assertTrue(false);
+        } catch (Error e) {
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void addInvalidAssignmentWrongSapt() {
+        try {
+            StudentRepo rep=new StudentRepo(new StudentValidator(), studentsPath);
+            TemeRepo repo=new TemeRepo(new TemeValidator(),temePath);
+            NoteRepo r=new NoteRepo(new NotaValidator());
+            ServiceStudent srv=new ServiceStudent(rep);
+            ServiceTeme serv=new ServiceTeme(repo);
+            ServiceNote sv=new ServiceNote(r);
+            UI.UI ui=new UI.UI(srv,serv,sv);
+            ui.addAssignment(1, "WhiteBox", -1, 1);
+            assertTrue(false);
+        } catch (Error e) {
+            assertTrue(true);
+        }
+    }
+    @Test
+    public void addInvalidAssignmentWrongDue() {
+        try {
+            StudentRepo rep=new StudentRepo(new StudentValidator(), studentsPath);
+            TemeRepo repo=new TemeRepo(new TemeValidator(),temePath);
+            NoteRepo r=new NoteRepo(new NotaValidator());
+            ServiceStudent srv=new ServiceStudent(rep);
+            ServiceTeme serv=new ServiceTeme(repo);
+            ServiceNote sv=new ServiceNote(r);
+            UI.UI ui=new UI.UI(srv,serv,sv);
+            ui.addAssignment(1, "WhiteBox", 3, -1);
             assertTrue(false);
         } catch (Error e) {
             assertTrue(true);
