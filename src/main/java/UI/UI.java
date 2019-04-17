@@ -37,6 +37,19 @@ public class UI {
         }
     }
 
+    public void addGrade(String id, int nr, float nota, int data, String fd) {
+        if (srv.find(id) != null && serv.find(nr) != null) {
+            Student st = srv.find(id);
+            Teme tm = serv.find(nr);
+            Map.Entry<String, Integer> nid = new AbstractMap.SimpleEntry<String, Integer>(id, nr);
+            Nota nt;
+            nt = new Nota(nid, st, tm, nota, data);
+            nota = nt.getValoare();
+            nt = new Nota(nid, st, tm, nota, data);
+            sv.add(nt,fd);
+        } else System.out.println("Student sau tema invalida.");
+    }
+
     public void show() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while(true) {
