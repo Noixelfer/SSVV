@@ -165,7 +165,7 @@ public class AppTest
             assertTrue(true);
         }
     }
-/*
+
     @Test
     public void addInvalidAssignmentWrongNr() {
         try {
@@ -215,5 +215,5 @@ public class AppTest
             assertTrue(true);
         }
     }
-*/
+
 	}
