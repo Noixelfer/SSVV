@@ -60,13 +60,13 @@ public class TopDown {
     @Test
     public void addValidAssignment() {
         try {
-            StudentRepo rep = new StudentRepo(new StudentValidator(), _studentsPath);
+            StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             TemeRepo repo = new TemeRepo(new TemeValidator(), temePath);
             NoteRepo r = new NoteRepo(new NotaValidator());
             ServiceStudent srv = new ServiceStudent(rep);
             ServiceTeme serv = new ServiceTeme(repo);
             ServiceNote sv = new ServiceNote(r);
-            UI ui = new UI(srv, serv, sv);
+            UI.UI ui = new UI.UI(srv, serv, sv);
             ui.addAssignment(1, "Do black box testing", 3, 4);
             assertTrue(true);
         } catch (Exception e) {
@@ -84,7 +84,7 @@ public class TopDown {
             ServiceStudent srv=new ServiceStudent(rep);
             ServiceTeme serv=new ServiceTeme(repo);
             ServiceNote sv=new ServiceNote(r);
-            UI ui = new UI(srv, serv, sv);
+            UI.UI ui = new UI.UI(srv, serv, sv);
 
             ui.addAssignment(1, "Paul ii mic", 3, 5);
             srv.add(new Student("1", "Mihai", 936, "mihai_ii_inalt@paulIiScund.com", "Andreea Vescan"));

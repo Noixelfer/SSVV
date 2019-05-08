@@ -3,28 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5486dac1-dd54-4607-beca-99b56d08a9f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Roman Ionut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Roman Ionut.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Nota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Teme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/hasID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MaxPointsParticipantsMV/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AbstractRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/CrudRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/NoteRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/StudentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/TemeRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceNote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/ServiceTeme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/NotaValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/StudentValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/TemeValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/TopDown..java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +19,7 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1717">
+            <state relative-caret-position="1479">
               <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,7 +31,7 @@
       <file leaf-file-name="BigBang.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="68">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoteRepo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NoteRepo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
-              <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+              <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopDown.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/TopDown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -121,15 +109,10 @@
       <file leaf-file-name="studenti.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/studenti.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="272">
               <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teme.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/teme.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -166,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/TopDown.java" />
       </list>
     </option>
   </component>
@@ -207,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,11 +198,38 @@
               <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSVV" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSVV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSVV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MaxPointsParticipantsMV" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -254,32 +264,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BigBang">
+  <component name="RunManager" selected="JUnit.TopDown">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="AppTest.addStudentWithInvalidProfessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MaxPointsParticipants" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
-      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.AppTest" />
-      <option name="METHOD_NAME" value="addStudentWithInvalidProfessor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="BigBang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MaxPointsParticipants" />
@@ -350,7 +337,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BigBang.test_addValidGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MaxPointsParticipants" />
       <extension name="coverage">
         <pattern>
@@ -361,8 +348,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
-      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.BigBang" />
-      <option name="METHOD_NAME" value="test_addValidGrade" />
+      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.TopDown" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TopDown.addValidGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MaxPointsParticipants" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MaxPointsParticipantsMV.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPointsParticipantsMV" />
+      <option name="MAIN_CLASS_NAME" value="MaxPointsParticipantsMV.TopDown" />
+      <option name="METHOD_NAME" value="addValidGrade" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -412,19 +422,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AppTest.addStudentWithInvalidProfessor" />
-      <item itemvalue="JUnit.BigBang.test_addValidGrade" />
       <item itemvalue="JUnit.BigBang.test_addValidAssignment" />
       <item itemvalue="JUnit.BigBang.test_addStudent" />
       <item itemvalue="JUnit.BigBang" />
+      <item itemvalue="JUnit.TopDown.addValidGrade" />
+      <item itemvalue="JUnit.TopDown" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopDown" />
+        <item itemvalue="JUnit.TopDown.addValidGrade" />
         <item itemvalue="JUnit.BigBang" />
         <item itemvalue="JUnit.BigBang.test_addStudent" />
         <item itemvalue="JUnit.BigBang.test_addValidAssignment" />
-        <item itemvalue="JUnit.BigBang.test_addValidGrade" />
-        <item itemvalue="JUnit.AppTest.addStudentWithInvalidProfessor" />
       </list>
     </recent_temporary>
   </component>
@@ -443,6 +453,8 @@
       <workItem from="1554284593273" duration="2625000" />
       <workItem from="1555493170583" duration="2886000" />
       <workItem from="1555496569357" duration="994000" />
+      <workItem from="1557308566158" duration="372000" />
+      <workItem from="1557311159530" duration="166000" />
     </task>
     <servers />
   </component>
@@ -479,7 +491,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13884000" />
+    <option name="totallyTimeSpent" value="14422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -487,7 +499,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -495,11 +506,11 @@
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven-2 Build" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -510,6 +521,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -519,29 +531,29 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24853334" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24853334" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven-2 Build" order="8" />
@@ -559,13 +571,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MaxPointsParticipantsMV/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -845,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/studenti.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="272">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
@@ -862,7 +867,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
+        <state relative-caret-position="1479">
           <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -872,7 +877,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/BigBang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="68">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -890,7 +895,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NoteRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPointsParticipantsMV/TopDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
         </state>
       </provider>
     </entry>
