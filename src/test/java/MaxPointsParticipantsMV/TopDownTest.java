@@ -15,33 +15,40 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
-public class BigBang {
+public class TopDownTest {
 
     private static String studentsPath = "src\\studenti.xml";
     private static String temePath = "src\\teme.xml";
+    @Test
+    public void studentAssignment(){
+        try{
+            test_addStudent();
+            addValidAssignment();
+        }catch (Error e){
+            assertTrue(false);
+        }
+    }
 
     @Test
-    public void bigBangTheory() {
-        try {
-            test_addValidAssignment();
+    public void studentAssignmentGrade(){
+        try{
             test_addStudent();
-            test_addValidGrade();
-        } catch (Error e) {
+            addValidAssignment();
+            addValidGrade();
+        }catch (Error e){
             assertTrue(false);
         }
     }
 
 
 
-
-
     @Test
     public void test_addStudent() {
         try {
-            StudentRepo rep = new StudentRepo(new StudentValidator(),studentsPath );
+            StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             ServiceStudent srv = new ServiceStudent(rep);
 
-            Student std = new Student("78", "Sergiu", 936, "sergiu97@yahoo.ro", "Prof X");
+            Student std = new Student("87", "Mihai", 936, "mihai97@yahoo.ro", "Prof X");
             srv.add(std);
             assertTrue(true);
         } catch (Error e) {
@@ -51,7 +58,7 @@ public class BigBang {
 
 
     @Test
-    public void test_addValidAssignment() {
+    public void addValidAssignment() {
         try {
             StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
             TemeRepo repo = new TemeRepo(new TemeValidator(), temePath);
@@ -60,7 +67,7 @@ public class BigBang {
             ServiceTeme serv = new ServiceTeme(repo);
             ServiceNote sv = new ServiceNote(r);
             UI.UI ui = new UI.UI(srv, serv, sv);
-            ui.addAssignment(1, "Do black box testing", 2, 3);
+            ui.addAssignment(1, "Do black box testing", 3, 4);
             assertTrue(true);
         } catch (Exception e) {
             assertTrue(false);
@@ -69,19 +76,19 @@ public class BigBang {
 
 
     @Test
-    public void test_addValidGrade() {
+    public void addValidGrade() {
         try {
-            StudentRepo rep = new StudentRepo(new StudentValidator(), studentsPath);
-            TemeRepo repo = new TemeRepo(new TemeValidator(), temePath);
-            NoteRepo r = new NoteRepo(new NotaValidator());
-            ServiceStudent srv = new ServiceStudent(rep);
-            ServiceTeme serv = new ServiceTeme(repo);
-            ServiceNote sv = new ServiceNote(r);
+            StudentRepo rep=new StudentRepo(new StudentValidator(),studentsPath);
+            TemeRepo repo=new TemeRepo(new TemeValidator(),temePath);
+            NoteRepo r=new NoteRepo(new NotaValidator());
+            ServiceStudent srv=new ServiceStudent(rep);
+            ServiceTeme serv=new ServiceTeme(repo);
+            ServiceNote sv=new ServiceNote(r);
             UI.UI ui = new UI.UI(srv, serv, sv);
 
-            ui.addAssignment(1, "something", 3, 5);
-            srv.add(new Student("1", "Daniel", 936, "preasfintitu.dani@saraki.ro", "Andreea Vescan"));
-            ui.addGrade("1", 1, 10.0f, 4, "Fenomenal este ca sunt fenomenal");
+            ui.addAssignment(1, "Paul ii mic", 3, 5);
+            srv.add(new Student("1", "Mihai", 936, "mihai_ii_inalt@paulIiScund.com", "Andreea Vescan"));
+            ui.addGrade("2", 1, 10.0f, 4, "un metru si un snitel ii paul (sorry boo)");
             assertTrue(true);
 
         } catch (Error e) {
